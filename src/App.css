@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;600;900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -14,9 +14,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e3f4db;
 }
-
-
+.cuntainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3f4db;
+}
+.head1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3f4db;
+  font-size: 30px;
+  font-weight:bolder;
+  flex-direction: column;
+}
+.d1{
+  /* border: 2px orangered solid;
+  border-radius: 30px; */
+  font-weight: 900;
+  font-size: 60px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
